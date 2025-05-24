@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+}
+
+header {
+    background-color: black;
+    color: rgb(209, 204, 204);
+    text-align: center;
+    padding: 10px;
+}
+header ul li {
+    display: inline;
+    margin-left: 40px;
+}
+nav{
+    position: static;
+}
+.subnav {
+    background-color: black;
+    color:rgb(253, 247, 247);
+    text-align: center;
+    padding: 15px;
+}
+.subnav h5 span {
+    color: rgb(76, 136, 226);
+}
+.subnav h5 i {
+    color: rgb(76, 136, 226);
+}
+
+
+.start {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.start h2 {
+    margin-top: 10px;
+}
+
+.buy1 {
+    background-color: black;
+    padding: 20px;
+}
+.buy1 h3 a{
+    color: rgb(76, 136, 226);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+.start img {
+    display: flex;
+    height: 444px;
+    width: 800px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.start2 {
+    background-color:rgb(253, 247, 247);
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.start2 h2 {
+    margin-top: 10px;
+}
+
+.buy2{
+    background-color:rgb(253, 247, 247);
+    padding: 20px;
+    text-decoration: none;
+}
+.buy2 h3 a{
+    color: rgb(76, 136, 226);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.start2 img {
+    display: flex;
+    height: 400px;
+    width: 1200px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.start3 img{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding-right: 100px;
+}
+
+
+.hero{
+    display:flex;
+    gap: 1px;
+}
+
+.hero h2{
+    margin-bottom: 20px;
+}
+
+.hero img{
+    width: 600px;
+    background-color:rgb(253, 247, 247);
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}    
+
+.buy3 h3 a{
+    color: rgb(76, 136, 226);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.hero1{
+    display: flex;
+    gap: 1px;
+}
+
+.hero1 h2{
+    margin-bottom: 20px;
+}
+
+.hero1 img{
+    width: 600px;
+    background-color: rgb(253, 247, 247);
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.buy4  h3 a{
+    color: rgb(76, 136, 226);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero2{
+    display: flex;
+    gap: 1px;
+}
+.hero2 img{
+    width: 600px;
+    background-color: rgb(253, 247, 247);
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.buy6 h3 a{
+        color: rgb(76, 136, 226);
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+
+footer{
+    color: rgb(86, 86, 86);
+}
+.para{
+    text-align: left;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+.para p span{
+    text-decoration: underline;
+}
+.footer{
+    padding: 30px;
+    
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    margin-bottom: 8px;
+    
+}
+.footer ul li h4{
+    color: black;
+}
+
+.footer-text{
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    
+}
+.footer-text p span{
+    color: rgb(76, 136, 226);
+    text-decoration: underline;
+}
+
+.footer-nav ul{
+    list-style: none;
+    text-align: left;
+    padding-top:10px ;
+    margin-left:25px;
+    display: flex;
+    justify-content: space-around;
+}
